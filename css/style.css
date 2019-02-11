@@ -1,0 +1,40 @@
+@media screen and (min-width: 480px) {
+  .box {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+  }
+}
+@media screen and (min-width: 600px) {
+  .box {
+    height: 200px;
+    width: 100vw;
+    background-color: #00bb00;
+  }
+}
+@media screen and (min-width: 900px) {
+  .box {
+    height: 100vw;
+    width: 200px;
+    background-color: yellow;
+  }
+}
+@media screen and (min-width: 1080px) {
+  .box {
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+  }
+}
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+  background-color: rebeccapurple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*# sourceMappingURL=style.css.map */
